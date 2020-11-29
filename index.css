@@ -1,0 +1,137 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+body{
+    background-color: #EEE;
+    padding-top: 20px;
+}
+header,footer{
+    text-align: center;
+}
+ .flex-grid {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+   
+} 
+.flex-grid-container{
+    width: 90%;
+    display: inline-block;
+}
+.btn{
+    padding: 10px;
+    display: block;
+    margin-bottom: 10px;
+    background-color: #72C3DC;
+    cursor: pointer;
+    width: 110px;
+}
+.button-container{
+   padding-left: 1%;
+   display: inline-block;
+   vertical-align: top;
+}
+.col {
+    flex: 1;
+    color: #fff;
+}
+.flex-grid .col {
+    width: 33%;
+    padding: 3%;
+    font-size: 24px;
+} 
+.col-1{
+    background-color: #000;
+}
+.col-2{
+    background-color: #333333;
+}
+.col-3{
+    background-color: #BFBFBF;
+}
+.col-4{
+    background-color: #72C3DC;
+}
+.col-5{
+    background-color: #2B8EAD;
+}
+.col-6{
+    background-color: #6F98A8;
+}
+.col-7{
+    background-color: #BFBFBF;
+}
+.col-8{
+    background-color: #2F454E;
+}
+.col-9{
+    background-color: #2B8EAD;
+}
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: #fff;
+    }
+    .btn{
+        display: inline-block;
+    }
+    .container{
+        flex-direction: column;
+    }
+    div.button-container{
+        order: 1;
+    }
+    div.flex-grid-container{
+        order: 2;
+    }
+    .col {
+        flex: 1;
+        color: #000;
+    }
+    .flex-grid{
+        display: block;
+        width: 100%;
+    }
+    .flex-grid .col{
+        width: 100%;
+        padding: 1%;
+        margin-bottom: 10px;
+    }
+    .col-1{
+        background-color:#EFEFEF;
+        background-image: -webkit-linear-gradient(left, #000, #000 10%, transparent 10%, transparent 100%)
+    }
+    .col-2{
+        background-color:#EFEFEF;
+        background-image: -webkit-linear-gradient(left, #333333, #333333 10%, transparent 10%, transparent 100%)
+    }
+    .col-3{
+        background-color:#EFEFEF;
+        background-image: -webkit-linear-gradient(left, #BFBFBF, #BFBFBF 10%, transparent 10%, transparent 100%)
+    }
+    .col-4{
+        background-color:#EFEFEF;
+        background-image: -webkit-linear-gradient(left, #72C3DC, #72C3DC 10%, transparent 10%, transparent 100%)
+    }
+    .col-5{
+        background-color:#EFEFEF;
+        background-image: -webkit-linear-gradient(left, #2B8EAD, #2B8EAD 10%, transparent 10%, transparent 100%)
+    }
+    .col-6{
+        background-color:#EFEFEF;
+        background-image: -webkit-linear-gradient(left, #6F98A8, #6F98A8 10%, transparent 10%, transparent 100%)
+    }
+    .col-7{
+        background-color:#EFEFEF;
+        background-image: -webkit-linear-gradient(left, #BFBFBF, #BFBFBF 10%, transparent 10%, transparent 100%)
+    }
+    .col-8{
+        background-color:#EFEFEF;
+        background-image: -webkit-linear-gradient(left, #2F454E, #2F454E 10%, transparent 10%, transparent 100%)
+    }
+    .col-9{
+        background-color:#EFEFEF;
+        background-image: -webkit-linear-gradient(left, #2B8EAD, #2B8EAD 10%, transparent 10%, transparent 100%)
+    }
+}
